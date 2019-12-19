@@ -1,0 +1,78 @@
+body {
+  font-family: "Noto Serif KR", serif;
+}
+#title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+#subtitle {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+/*위 부분은 건들 필요 없음 */
+
+.in {
+  text-align: center;
+  font-size: 20px;
+}
+
+#donelist {
+  color: darkgrey;
+  text-decoration: line-through;
+}
+
+input[type="text"] {
+  font-family: "Noto Serif KR", serif;
+  text-align: center;
+  width: 200px;
+  line-height: normal;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: #efefef;
+}
+
+input[type="textarea"] {
+  font-family: "Noto Serif KR", serif;
+  text-align: center;
+  width: 350px;
+  line-height: normal;
+  height: 26px;
+  font-size: 15px;
+  border: none;
+  margin: 10px;
+  background-color: #efefef;
+}
+
+input:focus {
+  outline: none;
+}
+
+.then {
+  margin-top: 40px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.addBtn {
+  background: #ffffff;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 5px 0px 5px 5px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #efefef;
+}
+
+#myUL {
+  margin-top: 100px;
+  font-size: 20px;
+  text-align: center;
+}
